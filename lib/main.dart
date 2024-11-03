@@ -69,7 +69,6 @@ class ThemeSwitcher extends StatelessWidget {
   }
 }
 
-// Açık Tema
 final ThemeData lightTheme = ThemeData(
   primarySwatch: Colors.blue,
   brightness: Brightness.light,
@@ -85,7 +84,6 @@ final ThemeData lightTheme = ThemeData(
   ),
 );
 
-// Karanlık Tema
 final ThemeData darkTheme = ThemeData(
   primarySwatch: Colors.blue,
   brightness: Brightness.dark,
